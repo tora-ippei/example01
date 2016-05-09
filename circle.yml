@@ -1,5 +1,7 @@
 machine:
     timezone: Asia/Tokyo
+    php:
+        version: 5.5.21
 
 deployment:
   master:

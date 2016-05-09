@@ -1,0 +1,8 @@
+machine:
+    timezone: Asia/Tokyo
+
+deployment:
+  master:
+    branch: master
+    commands:
+      - php rocketeer.phar deploy

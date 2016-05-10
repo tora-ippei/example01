@@ -41,6 +41,7 @@ return [
     'composer'     => [
         'install' => function (Composer $composer, $task) {
             return 'php //home/ippei/html/composer.phar install';
+
             //return $composer->install([], ['--no-interaction' => null, '--no-dev' => null, '--prefer-dist' => null]);
         },
         'update'  => function (Composer $composer) {
